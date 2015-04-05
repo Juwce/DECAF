@@ -71,6 +71,7 @@ a:focus {
 
 .navbar-custom .navbar-brand {
     font-weight: 700;
+    display : none;
 }
 
 .navbar-custom .navbar-brand:focus {
@@ -128,9 +129,9 @@ a:focus {
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out, color .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out, display .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out, display .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out, color .5s ease-in-out, display .5s ease-in-out;
     }
 
     .navbar-custom.top-nav-collapse {
@@ -141,6 +142,10 @@ a:focus {
 
     .navbar-custom.top-nav-collapse a {
         color: #000;
+    }
+
+    .navbar-custom .navbar-brand.brand-shown {
+        display: block !important;
     }
 }
 
