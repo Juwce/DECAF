@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #459db5;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -269,7 +269,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/DECaFbg2.png) no-repeat center center scroll;
+    background: url(../img/DECaFbg2-Darker.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -309,17 +309,23 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #459db5;
+    color: #459db5;
     background-color: transparent;
+}
+
+.btn-filled {
+    background-color: #bbb;
+    color: #459db5;
+    opacity: 0.95;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #459db5;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #459db5;
 }
 
 ul.banner-social-buttons {
