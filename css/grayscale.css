@@ -122,7 +122,7 @@ a:focus {
     color: ##1d9b6c;
 }
 
-@media(min-width:768px) {
+@media(min-width:1px) {
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
@@ -151,7 +151,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/Hexagon-3.jpg) no-repeat bottom center scroll;
+    background: url(../img/Hexagon-3-Darker.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -269,7 +269,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/DECaFbg2.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -289,7 +289,7 @@ a:focus {
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 200px 0;
     }
 
     #map {
